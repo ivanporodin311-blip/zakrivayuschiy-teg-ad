@@ -318,9 +318,9 @@
           </div>
         </div>
       </section>
-      <button class="dialog-button animated-button" type="button" onclick="window['dialog-floppy'].showModal();" aria-controls="dialog-floppy">
+      <button class="dialog-button animated-button" type="button" onclick="document.getElementById('dialog-floppy').showModal();" aria-controls="dialog-floppy">
         <svg class="floppy-svg" viewBox="0 0 44 44">
-          <use href="./svg/floppy.svg" />
+          <use href="svg\floppy.svg" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
@@ -330,12 +330,12 @@
       <div class="dialog-container">
         <div class="dialog-item">
           <svg viewBox="0 0 40 40" class="floppy_svg floppy-svg">
-            <use href="./svg/floppy.svg"/>  
+            <use href="svg\floppy.svg" />
           </svg>
           <span class="dialog-text">Вставьте дискету, чтобы продолжить</span>
         </div>
         <div class="ok__dialog-button">
-            <button class="animated-button" type="button" onclick="window['dialog-floppy'].close();">
+            <button class="animated-button" type="button" onclick="document.getElementById('dialog-floppy').close();">
               <span class="button__text ok">OK</span>
             </button>
         </div>
