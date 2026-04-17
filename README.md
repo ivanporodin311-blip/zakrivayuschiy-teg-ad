@@ -1,1 +1,1 @@
-https://ivanporodin311-blip.github.io/zakrivayuschiy-teg-ad
+https://github.com/ivanporodin311-blip/zakrivayuschiy-teg-ad
